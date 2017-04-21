@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+<listeners>
+<listener class-name="utility.TestListeners"></listener>
+</listeners>
+
+<test name="Demo" preserve-order="true">
+<!--<groups>
+<run>
+<include name="Regression">
+</include>
+</run>
+</groups> -->
+<classes>
+<!-- <class name="HelperMethods.ReadExcel"> -->
+<class name="tests.Login_Test">
+</class>
+</classes>
+</test>
+</suite>
